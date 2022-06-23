@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import "./App.css";
 
 class Nav extends Component {
@@ -11,7 +12,9 @@ class Nav extends Component {
                         <div className="col-md-12">
                             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                                 <a className="navbar-brand" href="#">
-                                    Navbar
+                                   <img src={this.props.img} alt="logo" style={{ height: "50px" }} />
+
+                                   {/* <h3>{this.props.name}</h3> */}
                                 </a>
                                 <button
                                     className="navbar-toggler"

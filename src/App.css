@@ -1,4 +1,7 @@
-body{margin-top:20px;}
+body{
+  margin-top:20px;
+  height: 1800px;
+}
 .bg-footer {
     background-color: #3b4757 !important;
 }

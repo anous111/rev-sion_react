@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import './App.css';
 
 class Collapse extends Component {
+    state ={
+        name: "ahmed" ,
+        age:32 
+    }
     render() {
         return (
             <>
@@ -32,7 +36,9 @@ class Collapse extends Component {
                                     >
                                         <div className="card-body">
                                             Some placeholder content for the first accordion panel. This panel is
-                                            shown by default, thanks to the <code>.show</code> class.
+                                            shown by default, thanks to the <code>.show</code> class.{this.props.email}
+                                            <p>{this.state.name}</p>
+                                            <p>{this.state.age}</p>
                                         </div>
                                     </div>
                                 </div>

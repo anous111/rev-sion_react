@@ -6,14 +6,15 @@ import Card from "./Card";
 import Collapse from "./Collapse";
 import Footer from "./Footer";
 
+
 class App extends Component{
   render(){
     return(
        <div>
-         <Nav />
+         <Nav img="https://www.tailorbrands.com/wp-content/uploads/2020/06/mcdonalds-logo-a-1.png"/>
          <Slider />
          <Card />
-         <Collapse />
+         <Collapse email="anissafia90@gmail.com"/>
          <Footer />
        </div>
 
